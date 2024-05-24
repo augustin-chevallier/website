@@ -1,0 +1,839 @@
+{
+    "graph": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:pdmp",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:pdmp\">\n<p><strong>Definition 1</strong> (PDMP). </p>\n<p><strong>PDMP: Piecewise Deterministic Markov Process</strong></p>\n<ul>\n<li><p><strong>Markov Process</strong>: continuous time Markov process\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\n(<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>\u2260</mo><annotation encoding=\"application/x-tex\">\\neq</annotation></semantics></math>\nMarkov chain)</p></li>\n<li><p><strong>Deterministic</strong>: follows a deterministic\ntrajectory, called deterministic flow\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03d5</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>t</mi><mo>,</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\phi(t,z)</annotation></semantics></math></p></li>\n<li><p><strong>Piecewise</strong>: There are random jumps at random\ntimes</p>\n<ul>\n<li><p>event rate\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(z)</annotation></semantics></math>,\nprobability of an event in\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo>+</mo><mi>d</mi><mi>t</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow><annotation encoding=\"application/x-tex\">[t,t+dt]</annotation></semantics></math>:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>Z</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>+</mo><mi>o</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>d</mi><mi>t</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(Z_t) dt +o(dt)</annotation></semantics></math></p></li>\n<li><p>jump kernel:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mo>\u22c5</mo><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math></p></li>\n</ul></li>\n</ul>\n<p>A PDMP\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\nis defined by</p>\n<ul>\n<li><p>a deterministic flow\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03d5</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>t</mi><mo>,</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\phi(t,z)</annotation></semantics></math></p></li>\n<li><p>a event rate\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(z)</annotation></semantics></math></p></li>\n<li><p>a jump kernel\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mo>\u22c5</mo><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math></p></li>\n</ul>\n<p><img alt=\"image\" src=\"PDMPEx.png\" style=\"width:10cm\"/></p>\n</div>",
+                "parent": "subsec:pdmp",
+                "rank": "0",
+                "html_name": "def:pdmp",
+                "summary": "<div class=\"definition\" id=\"def:pdmp\">\n<p><strong>Definition 1</strong> (PDMP). A PDMP\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\nis defined by</p>\n<ul>\n<li><p>a deterministic flow\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03d5</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>t</mi><mo>,</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\phi(t,z)</annotation></semantics></math></p></li>\n<li><p>a event rate\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(z)</annotation></semantics></math></p></li>\n<li><p>a jump kernel\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mo>\u22c5</mo><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "PDMP",
+                "display_order": 0,
+                "latexMainText": "\n\\textbf{PDMP: Piecewise Deterministic Markov Process}\n    \\begin{itemize}\n        \\item \\textbf{Markov Process}: continuous time Markov process $Z_t$ ($\\neq$ Markov chain)\n        \\item \\textbf{Deterministic}: follows a deterministic trajectory, called deterministic flow $\\phi(t,z)$\n        \\item \\textbf{Piecewise}: There are random jumps at random times\n        \\begin{itemize}\n            \\item event rate $\\lambda(z)$, probability of an event in $[t,t+dt]$: \\[\\lambda(Z_t) dt +o(dt)\\]\n            \\item jump kernel: $q(\\cdot|z)$\n        \\end{itemize}\n    \\end{itemize}\n\n    A PDMP $Z_t$ is defined by\n    \\begin{itemize}\n        \\item a deterministic flow $\\phi(t,z)$\n        \\item a event rate $\\lambda(z)$\n        \\item a jump kernel $q(\\cdot|z)$\n    \\end{itemize}\n    \\includegraphics[width=10cm]{PDMPEx.png}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -701.355507552286,
+                "y": -3027.6561909609327
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "prop:ideal",
+                "name": "proposition",
+                "text": "<div class=\"proposition\" id=\"prop:ideal\">\n<p><strong>Proposition 1</strong> (ideal sampling algorithm). </p>\n<p><strong><span style=\"color: orange\">Setting: </span></strong>\nsampling a differentiable target density\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03c0</mi><annotation encoding=\"application/x-tex\">\\pi</annotation></semantics></math>\non\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>n</mi></msup><annotation encoding=\"application/x-tex\">\\mathbb{R}^n</annotation></semantics></math></p>\n<p><strong><span style=\"color: orange\">Ideal sampling algorithm:\n</span></strong> <strong>a black box</strong></p>\n<ul>\n<li><p>Efficient, good scaling with the dimension</p></li>\n<li><p>Robust - adapt to the target density</p></li>\n<li><p>No parameters to set</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Current state:\n</span></strong></p>\n<ul>\n<li><p>Efficient: <strong>OK</strong></p></li>\n<li><p>Robust: <strong>not OK</strong>. Adaptive algorithm are\nhard</p></li>\n<li><p>No parameters to set: <strong>no OK</strong></p></li>\n</ul>\n</div>",
+                "parent": "sec:intro",
+                "rank": "0",
+                "html_name": "prop:ideal",
+                "summary": "<div class=\"proposition\" id=\"prop:ideal\">\n<p><strong>Proposition 1</strong> (ideal sampling algorithm).\n<strong><span style=\"color: orange\">Setting: </span></strong> sampling a\ndifferentiable target density\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03c0</mi><annotation encoding=\"application/x-tex\">\\pi</annotation></semantics></math>\non\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>n</mi></msup><annotation encoding=\"application/x-tex\">\\mathbb{R}^n</annotation></semantics></math></p>\n<p><strong><span style=\"color: orange\">Ideal sampling algorithm:\n</span></strong> <strong>a black box</strong></p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "ideal sampling algorithm",
+                "display_order": 1,
+                "latexMainText": "\\vspace{0.5cm}\n    \\alert{Setting: } sampling a differentiable target density $\\pi$ on $\\mathbb{R}^n$\n\n    \\vspace{0.5cm}\n    \\alert{Ideal sampling algorithm: } \\textbf{a black box}\n    \\begin{itemize}\n        \\item Efficient, good scaling with the dimension\n        \\item Robust - adapt to the target density\n        \\item No parameters to set\n    \\end{itemize}\n\n    \\alert{Current state: }\n    \\begin{itemize}\n        \\item Efficient: \\textbf{OK}\n        \\item Robust: \\textbf{not OK}. Adaptive algorithm are hard\n        \\item No parameters to set: \\textbf{no OK}\n    \\end{itemize}\n"
+            },
+            "classes": "l0",
+            "position": {
+                "x": -718.105951754225,
+                "y": -3663.3368667719105
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:pdmp-sampler",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:pdmp-sampler\">\n<p><strong>Definition 2</strong> (PDMP samplers). </p>\n<p>PDMP samplers:</p>\n<ul>\n<li><p>target density\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03c0</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\pi(x)</annotation></semantics></math>\non\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>d</mi></msup><annotation encoding=\"application/x-tex\">\\mathbb{R}^d</annotation></semantics></math></p></li>\n<li><p>add a velocity\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/x-tex\">v</annotation></semantics></math>,\nnotation:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z = (x,v)</annotation></semantics></math></p></li>\n<li><p>state space\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>d</mi></msup><mo>\u00d7</mo><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>d</mi></msup></mrow><annotation encoding=\"application/x-tex\">\\mathbb{R}^d \\times \\mathbb{R}^d</annotation></semantics></math></p></li>\n<li><p>deterministic flow:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>d</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo>,</mo><msub><mi>v</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>v</mi><mi>t</mi></msub><mo>,</mo><mi>\u03a8</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\frac{d (x_t,v_t)}{dt} = (v_t, \\Psi(x_t))</annotation></semantics></math>,\noften\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03a8</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">\\Psi(x_t) = 0</annotation></semantics></math>\n(i.e. straight lines)</p></li>\n<li><p>jump kernel\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mo>\u22c5</mo><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math>\nleaves the position invariant</p></li>\n</ul>\n<p><img alt=\"image\" src=\"PDMPsamplerex.png\" style=\"width:5cm\"/></p>\n</div>",
+                "parent": "subsec:pdmp",
+                "rank": "0",
+                "html_name": "def:pdmp-sampler",
+                "summary": "<div class=\"definition\" id=\"def:pdmp-sampler\">\n<p><strong>Definition 2</strong> (PDMP samplers). </p>\n<p>jump kernel\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mo>\u22c5</mo><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>z</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math>\nleaves the position invariant</p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "PDMP samplers",
+                "display_order": 2,
+                "latexMainText": "\n    PDMP samplers:\n    \\begin{itemize}\n        \\item target density $\\pi(x)$ on $\\mathbb{R}^d$\n        \\item add a velocity $v$, notation: $z = (x,v)$\n        \\item state space $\\mathbb{R}^d \\times \\mathbb{R}^d$\n        \\item deterministic flow: $\\frac{d (x_t,v_t)}{dt} = (v_t, \\Psi(x_t))$, often $\\Psi(x_t) = 0$ (i.e. straight lines)\n        \\item jump kernel $q(\\cdot|z)$ leaves the position invariant\n    \\end{itemize}\n    \n    \\includegraphics[width=5cm]{PDMPsamplerex.png}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": 325.28999509321716,
+                "y": -3023.0684188296827
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:backward",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:backward\">\n<p><strong>Definition 3</strong> (Backward process). </p>\n<p><strong><span style=\"color: orange\">Assumption: </span></strong> the\nprocess has an invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p>\n<p><strong><span style=\"color: orange\">Going backward: </span></strong>\nif the process is at\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo>,</mo><msub><mi>v</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><annotation encoding=\"application/x-tex\">(x_t,v_t)</annotation></semantics></math>\nat time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/x-tex\">t</annotation></semantics></math>,\nwhere could the process be at time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>t</mi><mo>\u2212</mo></msup><annotation encoding=\"application/x-tex\">t^-</annotation></semantics></math>\n?</p>\n<ul>\n<li><p>This question only makes sense if we assume that the process is\nat equilibrium (i.e. that\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>s</mi></msub><mo>,</mo><msub><mi>v</mi><mi>s</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">(x_s,v_s) \\sim \\mu</annotation></semantics></math>\nfor all\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/x-tex\">s</annotation></semantics></math>)</p></li>\n</ul>\n</div>",
+                "parent": "subsec:pdmp",
+                "rank": "0",
+                "html_name": "def:backward",
+                "summary": "<div class=\"definition\" id=\"def:backward\">\n<p><strong>Definition 3</strong> (Backward process). </p>\n<p>Backward process</p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "Backward process",
+                "display_order": 3,
+                "latexMainText": "\n    \\alert{Assumption: } the process has an invariant measure $\\mu$\n\n    \\alert{Going backward: } if the process is at $(x_t,v_t)$ at time $t$, where could the process be at time $t^-$ ?\n    \\begin{itemize}\n        \\item This question only makes sense if we assume that the process is at equilibrium (i.e. that $(x_s,v_s) \\sim \\mu$ for all $s$)\n    \\end{itemize}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -699.436733894382,
+                "y": -2545.7291095881988
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "prop:backward-simple",
+                "name": "proposition",
+                "text": "<div class=\"proposition\" id=\"prop:backward-simple\">\n<p><strong>Proposition 2</strong>. <span>Backward process: simple PDMP\ncase</span> </p>\n<p><strong><span style=\"color: orange\">Simple PDMP: </span></strong>\n(which covers BPS and ZigZag)</p>\n<ul>\n<li><p>When an event occures, the velocity is deterministically flipped\nby a function\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><annotation encoding=\"application/x-tex\">\\mathcal{F}</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><mi>v</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{F}(\\mathcal{F}(v)) = v</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bc</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><mi>\u03bc</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mu(x,v) = \\mu(x,\\mathcal{F}(v))</annotation></semantics></math></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Backward\nprocess:</span></strong></p>\n<ul>\n<li><p>Is a PDMP</p></li>\n<li><p>Deterministic trajectories: the base trajectories but\nbackward</p></li>\n<li><p>Jump rate:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>\u03bb</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda_{backward}(x,v) = \\lambda(x,\\mathcal{F}(v))</annotation></semantics></math></p></li>\n<li><p>Jump: use the velocity flip\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><annotation encoding=\"application/x-tex\">\\mathcal{F}</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "parent": "subsec:pdmp",
+                "rank": "0",
+                "html_name": "prop:backward-simple",
+                "summary": "<div class=\"proposition\" id=\"prop:backward-simple\">\n<p><strong>Proposition 2</strong>. <span>Backward process: simple PDMP\ncase</span> </p>\n<ul>\n<li><p>Deterministic trajectories: the base trajectories but\nbackward</p></li>\n<li><p>Jump rate:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>\u03bb</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda_{backward}(x,v) = \\lambda(x,\\mathcal{F}(v))</annotation></semantics></math></p></li>\n<li><p>Jump: use the velocity flip\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><annotation encoding=\"application/x-tex\">\\mathcal{F}</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "hasSummary": true,
+                "hasTitle": false,
+                "title": "",
+                "display_order": 4,
+                "latexMainText": "\n    \\alert{Simple PDMP: } (which covers BPS and ZigZag)\n    \\begin{itemize}\n        \\item When an event occures, the velocity is deterministically flipped by a function $\\mathcal{F}$\n        \\item $\\mathcal{F}(\\mathcal{F}(v)) = v$\n        \\item $\\mu(x,v) = \\mu(x,\\mathcal{F}(v))$\n    \\end{itemize}\n\n    \\vspace{0.5cm}\n    \\alert{Backward process:}\n    \\begin{itemize}\n        \\item Is a PDMP\n        \\item Deterministic trajectories: the base trajectories but backward\n        \\item Jump rate: $\\lambda_{backward}(x,v) = \\lambda(x,\\mathcal{F}(v))$\n        \\item Jump: use the velocity flip $\\mathcal{F}$\n    \\end{itemize}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": 319.6320491744016,
+                "y": -2541.940749799839
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:skew-reversibility",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:skew-reversibility\">\n<p><strong>Definition 4</strong>. <span>Skew-reversibility</span> </p>\n<p><strong><span style=\"color: orange\">Definition:</span></strong> a\nPDMP is said to be skew-reversible if for any path\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><annotation encoding=\"application/x-tex\">(x_t)_{t\\in[0,T]}</annotation></semantics></math>\nfrom\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/x-tex\">x</annotation></semantics></math>\nto\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/x-tex\">y</annotation></semantics></math>:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><msub><mi>P</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><mrow><msub><mi>P</mi><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></mfrac><mfrac><mrow><mi>\u03c0</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>y</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><mrow><mi>\u03c0</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></mfrac><mo>=</mo><mn>1</mn><mo>,</mo></mrow><annotation encoding=\"application/x-tex\">\\frac{P_{backward}((x_t)_{t\\in[0,T]})}{P_{forward}((x_t)_{t\\in[0,T]})} \\frac{\\pi(y)}{\\pi(x)} = 1,</annotation></semantics></math>\nwhere\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">P_{forward}((x_t)_{t\\in[0,T]})</annotation></semantics></math>\nis the probability of taking this path forward starting from\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x_0 = x</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">P_{backward}((x_t)_{t\\in[0,T]})</annotation></semantics></math>\nis the path backward starting from\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mi>T</mi></msub><mo>=</mo><mi>y</mi></mrow><annotation encoding=\"application/x-tex\">x_T = y</annotation></semantics></math>.</p>\n<p><strong><span style=\"color: orange\">PDMP samplers:</span></strong>\nthey are skew-reversible!</p>\n</div>",
+                "parent": "subsec:pdmp",
+                "rank": "0",
+                "html_name": "def:skew-reversibility",
+                "summary": "<div class=\"definition\" id=\"def:skew-reversibility\">\n<p><strong>Definition 4</strong>. <span>Skew-reversibility</span> </p>\n<p><math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><msub><mi>P</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><mrow><msub><mi>P</mi><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></mfrac><mfrac><mrow><mi>\u03c0</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>y</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><mrow><mi>\u03c0</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></mfrac><mo>=</mo><mn>1</mn><mo>,</mo></mrow><annotation encoding=\"application/x-tex\">\\frac{P_{backward}((x_t)_{t\\in[0,T]})}{P_{forward}((x_t)_{t\\in[0,T]})} \\frac{\\pi(y)}{\\pi(x)} = 1,</annotation></semantics></math></p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": false,
+                "title": "",
+                "display_order": 5,
+                "latexMainText": "\n    \\alert{Definition:} a PDMP is said to be skew-reversible if for any path $(x_t)_{t\\in[0,T]}$ from $x$ to $y$:\n    \\[\n        \\frac{P_{backward}((x_t)_{t\\in[0,T]})}{P_{forward}((x_t)_{t\\in[0,T]})} \\frac{\\pi(y)}{\\pi(x)} = 1,\n    \\]\n    where $P_{forward}((x_t)_{t\\in[0,T]})$ is the probability of taking this path forward starting from $x_0 = x$ and $P_{backward}((x_t)_{t\\in[0,T]})$ is the path backward starting from $x_T = y$.\n\n\n    \\vspace{1cm}\n    \\alert{PDMP samplers:} they are skew-reversible!\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -690.6077609635789,
+                "y": -2165.1087963993086
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "prop:when-to-stop",
+                "name": "proposition",
+                "text": "<span id=\"prop:when-to-stop\" label=\"prop:when-to-stop\"></span>",
+                "parent": "sec:nuts",
+                "rank": "0",
+                "html_name": "prop:when-to-stop",
+                "summary": "<div class=\"proposition\" id=\"prop:when-to-stop\">\n<p><strong>Proposition 3</strong> (When to stop). </p>\n<p>We don\u2019t want u-turns in the trajectory</p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "<span id=\"prop:when-to-stop\" label=\"prop:when-to-stop\"></span",
+                "display_order": 6,
+                "latexMainText": "\n    \\alert{Motivation:} PDMP methods evolve deterministically for a stochastic time $T$ similar to HMC. This can lead to U-turn behaviour hindering the sampler    \n    \n    \\begin{figure}\n        \\centering\n        \\animategraphics[autoplay,loop,width=0.5\\linewidth]{22}{gifs/BPS-}{0001}{0039}\n    \\end{figure}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -2140.5692869844006,
+                "y": -1418.5534545888772
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:nuts-hmc",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:nuts-hmc\">\n<p><strong>Definition 5</strong> (HMC with NUTS). </p>\n<p><strong><span style=\"color: orange\">HMC-NUTS:</span></strong></p>\n<ul>\n<li><p>Adaptively chose\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/x-tex\">L</annotation></semantics></math>\nthe number of steps</p></li>\n<li><p><strong><span style=\"color: orange\">Intuition:</span></strong>\nstop when the trajectory does a U-turn</p></li>\n<li><p>Builds the trajectory both forward and backward until a\nU-turn</p></li>\n<li><p>Proposes one of the constructed points at random</p></li>\n</ul>\n<p><img alt=\"image\" src=\"NUTS.png\"/></p>\n</div>",
+                "parent": "sec:nuts",
+                "rank": "0",
+                "html_name": "def:nuts-hmc",
+                "summary": "<div class=\"definition\" id=\"def:nuts-hmc\">\n<p><strong>Definition 5</strong> (HMC with NUTS). </p>\n<p>Stop HMC when a U-turn occures</p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "HMC with NUTS",
+                "display_order": 7,
+                "latexMainText": "\n    \\alert{HMC-NUTS:}\n    \\begin{itemize}\n        \\item Adaptively chose $L$ the number of steps\n        \\item \\alert{Intuition:} stop when the trajectory does a U-turn\n        \\item Builds the trajectory both forward and backward until a U-turn\n        \\item Proposes one of the constructed points at random\n    \\end{itemize}\n\n    \\centering\n    \\includegraphics[width=0.7\\linewidth]{NUTS.png}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -2141.23789906661,
+                "y": -1063.9650431477571
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:pdmp-nuts",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:pdmp-nuts\">\n<p><strong>Definition 6</strong> (PDMP with NUTS). </p>\n<p><strong><span style=\"color: orange\">Assumptions for our\nPDMP:</span></strong></p>\n<ol>\n<li><p>invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p></li>\n<li><p>Skew-reversible</p></li>\n</ol>\n<p><strong><span style=\"color: orange\">A new\nalgorithm:</span></strong></p>\n<ul>\n<li><p>PDMP: <strong>Markov process, continuous time</strong></p></li>\n<li><p>PDMP-NUTS: <strong>Markov chain, discrete time</strong></p></li>\n<li><p>Start from a point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p></li>\n<li><p>Resample the velocity</p></li>\n<li><p>Simulate the PDMP until a U-turn occures</p></li>\n<li><p>Output a new point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mi>\u2032</mi><mo>,</mo><mi>v</mi><mi>\u2032</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><annotation encoding=\"application/x-tex\">(x',v')</annotation></semantics></math>\nsampled from the trajectory</p></li>\n</ul>\n<p>Consider the following:</p>\n<ol>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">z \\sim \\mu</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03b1</mi><mo>\u223c</mo><mi>u</mi><mi>n</mi><mi>i</mi><mi>f</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\alpha \\sim unif(0,1)</annotation></semantics></math></p></li>\n<li><p>Build a trajectory\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\nfor\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>\u2208</mo><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle></mrow><annotation encoding=\"application/x-tex\">t\\in \\mathbb{R}</annotation></semantics></math>\nwith\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mn>0</mn></msub><mo>=</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">Z_0 = z</annotation></semantics></math>,\n<strong>both forward and backward</strong></p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mo>max</mo><mo form=\"prefix\" stretchy=\"false\">{</mo><mi>t</mi><mo>\u2208</mo><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mo>+</mo></msup><mspace width=\"0.167em\"></mspace><mo form=\"prefix\" stretchy=\"false\">|</mo><mspace width=\"0.167em\"></mspace><mi>C</mi><mi>r</mi><mi>i</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><mi>n</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>Z</mi><mi>s</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>s</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mo>\u2212</mo><mi>\u03b1</mi><mi>t</mi><mo>,</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mn>1</mn><mo>\u2212</mo><mi>\u03b1</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mi>t</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mtext mathvariant=\"normal\">is valid</mtext><mo form=\"postfix\" stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">T = \\max \\{t\\in \\mathbb{R}^+ \\, | \\, Criterion((Z_s)_{s\\in [-\\alpha t, (1-\\alpha)t]}) \\text{is valid}\\}</annotation></semantics></math></p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>=</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>Z</mi><mrow><mi>t</mi><mo>\u2212</mo><mi>\u03b1</mi><mi>T</mi></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub></mrow><annotation encoding=\"application/x-tex\">X = (Z_{t-\\alpha T})_{t \\in [0,T]}</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mo>=</mo><mi>\u03b1</mi><mi>T</mi></mrow><annotation encoding=\"application/x-tex\">l = \\alpha T</annotation></semantics></math></p></li>\n</ol>\n<p>Consider the random variable\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>X</mi><mo>,</mo><mi>l</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><annotation encoding=\"application/x-tex\">(X,l)</annotation></semantics></math>:</p>\n<ul>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>X</mi><mi>l</mi></msub><mo>=</mo><msub><mi>Z</mi><mn>0</mn></msub><mo>=</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">X_l = Z_0 = z</annotation></semantics></math></p></li>\n<li><p><strong><span style=\"color: orange\">hence\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>X</mi><mi>l</mi></msub><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">X_l \\sim \\mu</annotation></semantics></math></span></strong></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Algorithm:</span></strong>\nstarting from\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p>\n<ul>\n<li><p>Sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03b1</mi><mo>\u223c</mo><mi>u</mi><mi>n</mi><mi>i</mi><mi>f</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\alpha \\sim unif(0,1)</annotation></semantics></math></p></li>\n<li><p>Sampling a path:</p>\n<ul>\n<li><p>Build a trajectory\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\nfor\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>\u2208</mo><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle></mrow><annotation encoding=\"application/x-tex\">t\\in \\mathbb{R}</annotation></semantics></math>\nwith\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mn>0</mn></msub><mo>=</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">Z_0 = z</annotation></semantics></math>\n(both forward and backward)</p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mo>max</mo><mo form=\"prefix\" stretchy=\"false\">{</mo><mi>t</mi><mo>\u2208</mo><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mo>+</mo></msup><mspace width=\"0.167em\"></mspace><mo form=\"prefix\" stretchy=\"false\">|</mo><mspace width=\"0.167em\"></mspace><mi>C</mi><mi>r</mi><mi>i</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><mi>n</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>Z</mi><mi>s</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>s</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mo>\u2212</mo><mi>\u03b1</mi><mi>t</mi><mo>,</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mn>1</mn><mo>\u2212</mo><mi>\u03b1</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mi>t</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mtext mathvariant=\"normal\">is valid</mtext><mo form=\"postfix\" stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">T = \\max \\{t\\in \\mathbb{R}^+ \\, | \\, Criterion((Z_s)_{s\\in [-\\alpha t, (1-\\alpha)t]}) \\text{is valid}\\}</annotation></semantics></math></p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>=</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>Z</mi><mrow><mi>t</mi><mo>\u2212</mo><mi>\u03b1</mi><mi>T</mi></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub></mrow><annotation encoding=\"application/x-tex\">X = (Z_{t-\\alpha T})_{t \\in [0,T]}</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mo>=</mo><mi>\u03b1</mi><mi>T</mi></mrow><annotation encoding=\"application/x-tex\">l = \\alpha T</annotation></semantics></math></p></li>\n</ul></li>\n<li><p>Sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mi>\u2032</mi><mo>\u223c</mo><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">l' \\sim \\mathbb{P}(l | X)</annotation></semantics></math>\n(note: this probability depends on the distribution of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/x-tex\">z</annotation></semantics></math>!)</p></li>\n<li><p>output:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>X</mi><mrow><mi>l</mi><mi>\u2032</mi></mrow></msub><annotation encoding=\"application/x-tex\">X_{l'}</annotation></semantics></math></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Measure invariance:\n</span></strong> If\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">z \\sim \\mu</annotation></semantics></math>\nthen\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>X</mi><mrow><mi>l</mi><mi>\u2032</mi></mrow></msub><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">X_{l'} \\sim \\mu</annotation></semantics></math></p>\n<p><strong><span style=\"color: orange\">Question: </span></strong> what\nis\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>?</p>\n</div>",
+                "parent": "sec:nuts",
+                "rank": "0",
+                "html_name": "def:pdmp-nuts",
+                "summary": "<div class=\"definition\" id=\"def:pdmp-nuts\">\n<p><strong>Definition 6</strong> (PDMP with NUTS). </p>\n<p><strong><span style=\"color: orange\">Assumptions for our\nPDMP:</span></strong></p>\n<ol>\n<li><p>invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p></li>\n<li><p>Skew-reversible</p></li>\n</ol>\n<p><strong><span style=\"color: orange\">A new\nalgorithm:</span></strong></p>\n<ul>\n<li><p>PDMP: <strong>Markov process, continuous time</strong></p></li>\n<li><p>PDMP-NUTS: <strong>Markov chain, discrete time</strong></p></li>\n<li><p>Start from a point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p></li>\n<li><p>Resample the velocity</p></li>\n<li><p>Simulate the PDMP until a U-turn occures</p></li>\n<li><p>Output a new point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mi>\u2032</mi><mo>,</mo><mi>v</mi><mi>\u2032</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><annotation encoding=\"application/x-tex\">(x',v')</annotation></semantics></math>\nsampled from the trajectory</p></li>\n</ul>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "PDMP with NUTS",
+                "display_order": 8,
+                "latexMainText": "    \n    \\alert{Assumptions for our PDMP:}\n    \\begin{enumerate}\n        \\item invariant measure $\\mu$\n        \\item Skew-reversible\n    \\end{enumerate}\n\n    \\alert{A new algorithm:}\n    \\begin{itemize}\n        \\item PDMP: \\textbf{Markov process, continuous time}\n        \\item PDMP-NUTS: \\textbf{Markov chain, discrete time}\n        \\item Start from a point $z=(x,v)$\n        \\item Resample the velocity\n        \\item Simulate the PDMP until a U-turn occures\n        \\item Output a new point $(x',v')$ sampled from the trajectory\n    \\end{itemize}\n    \n    Consider the following:\n    \\begin{enumerate}\n        \\item $z \\sim \\mu$\n        \\item $\\alpha \\sim unif(0,1)$\n        \\item Build a trajectory $Z_t$ for $t\\in \\mathbb{R}$ with $Z_0 = z$, \\textbf{both forward and backward}\n        \\item Let $T = \\max \\{t\\in \\mathbb{R}^+ \\, | \\, Criterion((Z_s)_{s\\in [-\\alpha t, (1-\\alpha)t]}) \\text{is valid}\\} $\n        \\item Let $X = (Z_{t-\\alpha T})_{t \\in [0,T]}$ and $l = \\alpha T$\n    \\end{enumerate}\n\n    Consider the random variable $(X,l)$:\n    \\begin{itemize}\n        \\item $X_l = Z_0 = z$\n        \\item \\alert{hence $X_l \\sim \\mu$}\n    \\end{itemize}\n\n    \\alert{Algorithm:} starting from $z=(x,v)$\n    \\begin{itemize}\n        \\item Sample $\\alpha \\sim unif(0,1)$\n        \\item Sampling a path:\n        \\begin{itemize}\n            \\item Build a trajectory $Z_t$ for $t\\in \\mathbb{R}$ with $Z_0 = z$ (both forward and backward)\n            \\item Let $T = \\max \\{t\\in \\mathbb{R}^+ \\, | \\, Criterion((Z_s)_{s\\in [-\\alpha t, (1-\\alpha)t]}) \\text{is valid}\\} $\n            \\item Let $X = (Z_{t-\\alpha T})_{t \\in [0,T]}$ and $l = \\alpha T$\n        \\end{itemize}\n        \\item Sample $l' \\sim \\mathbb{P}(l | X)$ (note: this probability depends on the distribution of $z$!)\n        \\item output: $X_{l'}$\n    \\end{itemize}\n\n    \\alert{Measure invariance: } If $z \\sim \\mu$ then $X_{l'} \\sim \\mu$ \n\n    \\alert{Question: } what is $\\mathbb{P}(l | X)$?\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -1261.1699077299315,
+                "y": -800.0770765588683
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "prop:PlX",
+                "name": "proposition",
+                "text": "<div class=\"proposition\" id=\"prop:PlX\">\n<p><strong>Proposition 4</strong>\n(<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>).\n</p>\n<p><strong><span style=\"color: orange\">Different\ncases:</span></strong></p>\n<ul>\n<li><p>assuming that the criterion was triggered by the right side of\nthe interval:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>\u221d</mo><mfrac><mrow><mi>T</mi><mo>\u2212</mo><mi>t</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X) \\propto \\frac{T-t}{T}</annotation></semantics></math></p></li>\n<li><p>by the left side:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>\u221d</mo><mfrac><mi>t</mi><mi>T</mi></mfrac></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X) \\propto \\frac{t}{T}</annotation></semantics></math></p></li>\n<li><p>we simplify the No-U-turn criterion so that it cannot be\ntriggered by both sides at the same time.</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Proof:</span></strong> direct\nconsequence of skew-reversibility</p>\n</div>",
+                "parent": "sec:nuts",
+                "rank": "0",
+                "html_name": "prop:PlX",
+                "summary": "<div class=\"proposition\" id=\"prop:PlX\">\n<p><strong>Proposition 4</strong>\n(<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>).\n</p>\n<ul>\n<li><p>assuming that the criterion was triggered by the right side of\nthe interval:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>\u221d</mo><mfrac><mrow><mi>T</mi><mo>\u2212</mo><mi>t</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X) \\propto \\frac{T-t}{T}</annotation></semantics></math></p></li>\n<li><p>by the left side:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>\u221d</mo><mfrac><mi>t</mi><mi>T</mi></mfrac></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X) \\propto \\frac{t}{T}</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>",
+                "display_order": 9,
+                "latexMainText": "\n    \\alert{Different cases:}\n    \\begin{itemize}\n        \\item  assuming that the criterion was triggered by the right side of the interval:\n        \\[\n            \\mathbb{P}(l | X) \\propto \\frac{T-t}{T}\n        \\]\n        \\item  by the left side:\n        \\[\n            \\mathbb{P}(l | X) \\propto \\frac{t}{T}\n        \\]\n        \\item  we simplify the No-U-turn criterion so that it cannot be triggered by both sides at the same time.\n    \\end{itemize}\n\n    \\vspace{1cm}\n    \\alert{Proof:} direct consequence of skew-reversibility\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -1265.9031042734277,
+                "y": 345.3564869671915
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:metro-pdmp",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:metro-pdmp\">\n<p><strong>Definition 7</strong> (Metropolised PDMP sampler). </p>\n<p><strong><span style=\"color: orange\">Assumptions for our\nPDMP:</span></strong></p>\n<ol>\n<li><p>invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p></li>\n<li><p>Skew-reversible</p></li>\n</ol>\n<p><strong><span style=\"color: orange\">A new\nalgorithm:</span></strong></p>\n<ul>\n<li><p>PDMP: <strong>Markov process, continuous time</strong></p></li>\n<li><p>Metropolised PDMP: <strong>Markov chain, discrete\ntime</strong></p></li>\n<li><p>Start from a point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p></li>\n<li><p>Simulate a numerical approximation of the PDMP until time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></p></li>\n<li><p>accept/reject\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>T</mi></msub><annotation encoding=\"application/x-tex\">Z_T</annotation></semantics></math>\nusing a Metropolis correction</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Path construction:\n</span></strong></p>\n<ul>\n<li><p>Pick an integration time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>,</p></li>\n<li><p>select a time direction\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03c4</mi><mo>\u2208</mo><mo form=\"prefix\" stretchy=\"false\">{</mo><mo>\u2212</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo form=\"postfix\" stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\tau \\in \\{-1,1\\}</annotation></semantics></math>,</p></li>\n<li><p>build\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>t</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\tilde{\\lambda}(t)</annotation></semantics></math>\na (nice) numerical approximation of the rate\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>t</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mo>=</mo><mi>\u03bb</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo>,</mo><msub><mi>v</mi><mi>t</mi></msub><mo>,</mo><mi>\u03c4</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(t) = \\lambda(x_t,v_t,\\tau)</annotation></semantics></math>,</p></li>\n<li><p>find the next event using this approximated rate (but in an exact\nway) and jump at event,</p></li>\n<li><p>repeat until time reaching time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>.</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Acceptance: </span></strong></p>\n<ul>\n<li><p>Accept or reject the point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mi>T</mi></msub><annotation encoding=\"application/x-tex\">x_T</annotation></semantics></math>\nusing a Metropolis correction.</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Acceptance rate: </span></strong>\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03b1</mi><mo>=</mo><mfrac><mrow><msub><mover><mi>P</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><mrow><msub><mover><mi>P</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></mfrac><mfrac><mrow><mi>\u03c0</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mi>T</mi></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><mrow><mi>\u03c0</mi><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow></mfrac></mrow><annotation encoding=\"application/x-tex\">\\alpha = \\frac{\\tilde P_{backward}((x_t)_{t\\in[0,T]})}{\\tilde P_{forward}((x_t)_{t\\in[0,T]})}\\frac{\\pi(x_T)}{\\pi(x_0)}</annotation></semantics></math>\n<strong>The approximation\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><annotation encoding=\"application/x-tex\">\\tilde{\\lambda}</annotation></semantics></math>\nis not the same backward and forward</strong></p>\n</div>",
+                "parent": "sec:metro-pdmp",
+                "rank": "0",
+                "html_name": "def:metro-pdmp",
+                "summary": "<div class=\"definition\" id=\"def:metro-pdmp\">\n<p><strong>Definition 7</strong> (Metropolised PDMP sampler). </p>\n<p><strong><span style=\"color: orange\">Assumptions for our\nPDMP:</span></strong></p>\n<ol>\n<li><p>invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p></li>\n<li><p>Skew-reversible</p></li>\n</ol>\n<p><strong><span style=\"color: orange\">A new\nalgorithm:</span></strong></p>\n<ul>\n<li><p>PDMP: <strong>Markov process, continuous time</strong></p></li>\n<li><p>Metropolised PDMP: <strong>Markov chain, discrete\ntime</strong></p></li>\n<li><p>Start from a point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p></li>\n<li><p>Simulate a numerical approximation of the PDMP until time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></p></li>\n<li><p>accept/reject\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>T</mi></msub><annotation encoding=\"application/x-tex\">Z_T</annotation></semantics></math>\nusing a Metropolis correction</p></li>\n</ul>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "Metropolised PDMP sampler",
+                "display_order": 10,
+                "latexMainText": "\n    \\alert{Assumptions for our PDMP:}\n    \\begin{enumerate}\n        \\item invariant measure $\\mu$\n        \\item Skew-reversible\n    \\end{enumerate}\n\n    \\alert{A new algorithm:}\n    \\begin{itemize}\n        \\item PDMP: \\textbf{Markov process, continuous time}\n        \\item Metropolised PDMP: \\textbf{Markov chain, discrete time}\n        \\item Start from a point $z=(x,v)$\n        \\item Simulate a numerical approximation of the PDMP until time $T$\n        \\item accept/reject $Z_T$ using a Metropolis correction\n    \\end{itemize}\n    \\alert{Path construction: }\n    \\begin{itemize}\n        \\item Pick an integration time $T$,\n        \\item select a time direction $\\tau \\in \\{-1,1\\}$,\n        \\item build $\\tilde{\\lambda}(t)$ a (nice) numerical approximation of the rate $\\lambda(t) = \\lambda(x_t,v_t,\\tau)$,\n        \\item find the next event using this approximated rate (but in an exact way) and jump at event,\n        \\item repeat until time reaching time $T$.\n    \\end{itemize}\n\n    \\alert{Acceptance: }\n    \\begin{itemize}\n        \\item Accept or reject the point $x_T$ using a Metropolis correction.\n    \\end{itemize}\n    \n    \\alert{Acceptance rate: }\n    \\[\n        \\alpha = \\frac{\\tilde P_{backward}((x_t)_{t\\in[0,T]})}{\\tilde P_{forward}((x_t)_{t\\in[0,T]})}\\frac{\\pi(x_T)}{\\pi(x_0)}\n    \\]\n    \\textbf{The approximation $\\tilde{\\lambda}$ is not the same backward and forward}\n\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": 1024.9239491761853,
+                "y": -755.5732042322595
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "prop:acc-rate",
+                "name": "proposition",
+                "text": "<div class=\"proposition\" id=\"prop:acc-rate\">\n<p><strong>Proposition 5</strong> (Acceptance rate). </p>\n<p><strong><span style=\"color: orange\">Skew-reversibility:\n</span></strong> if\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><mo>=</mo><mi>\u03bb</mi></mrow><annotation encoding=\"application/x-tex\">\\tilde{\\lambda} = \\lambda</annotation></semantics></math>,\nthen the acceptance\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03b1</mi><annotation encoding=\"application/x-tex\">\\alpha</annotation></semantics></math>\nis 1 <strong><span style=\"color: orange\">Tractable:</span></strong></p>\n<ul>\n<li><p>if\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><annotation encoding=\"application/x-tex\">\\tilde \\lambda</annotation></semantics></math>\nis simple (i.e.\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msubsup><mo>\u222b</mo><mn>0</mn><msub><mi>t</mi><mi>i</mi></msub></msubsup><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>t</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">\\int_0^{t_i} \\tilde \\lambda(t) dt</annotation></semantics></math>\ncan be computed exactly)</p></li>\n<li><p>examples: order\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">0,1,2</annotation></semantics></math>\npolynomial approximations of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bb</mi><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "parent": "sec:metro-pdmp",
+                "rank": "0",
+                "html_name": "prop:acc-rate",
+                "summary": "<div class=\"proposition\" id=\"prop:acc-rate\">\n<p><strong>Proposition 5</strong> (Acceptance rate). </p>\n<p><strong><span style=\"color: orange\">Skew-reversibility:\n</span></strong> if\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><mo>=</mo><mi>\u03bb</mi></mrow><annotation encoding=\"application/x-tex\">\\tilde{\\lambda} = \\lambda</annotation></semantics></math>,\nthen the acceptance\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03b1</mi><annotation encoding=\"application/x-tex\">\\alpha</annotation></semantics></math>\nis 1</p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "Acceptance rate",
+                "display_order": 11,
+                "latexMainText": "\n\\alert{Skew-reversibility: } if $\\tilde{\\lambda} = \\lambda$, then the acceptance $\\alpha$  is 1 \n    \\vspace{0.5cm}\n    \\alert{Tractable:} \n    \\begin{itemize}\n        \\item if $\\tilde \\lambda$ is simple (i.e. $\\int_0^{t_i} \\tilde \\lambda(t) dt$ can be computed exactly)\n        \\item examples: order $0,1,2$ polynomial approximations of $\\lambda$\n    \\end{itemize}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": 1010.03589359731,
+                "y": 236.04099687328448
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "def:metro-nuts-pdmp",
+                "name": "definition",
+                "text": "<div class=\"definition\" id=\"def:metro-nuts-pdmp\">\n<p><strong>Definition 8</strong> (Metropolised PDMP NUTS). </p>\n<p>PDMP-NUTS algorithms with numerical approximation:</p>\n<ul>\n<li><p>build the trajectories forward and backward using a numerical\napproximation of the rate</p></li>\n<li><p>we need to sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>\nis now more complicated</p></li>\n<li><p><strong><span style=\"color: orange\">but it can be evaluated for\neach\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mo>\u2208</mo><mrow><mo form=\"prefix\" stretchy=\"true\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo form=\"postfix\" stretchy=\"true\">]</mo></mrow></mrow><annotation encoding=\"application/x-tex\">l \\in [0,T]</annotation></semantics></math></span></strong></p></li>\n<li><p>we do a 1 Metropolis step to sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mi>l</mi><mo form=\"prefix\" stretchy=\"false\">|</mo><mi>X</mi><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "parent": "sec:metro-nuts-pdmp",
+                "rank": "0",
+                "html_name": "def:metro-nuts-pdmp",
+                "summary": "<div class=\"definition\" id=\"def:metro-nuts-pdmp\">\n<p><strong>Definition 8</strong> (Metropolised PDMP NUTS). </p>\n<p>Combining the two ideas</p>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "Metropolised PDMP NUTS",
+                "display_order": 12,
+                "latexMainText": "\n    PDMP-NUTS algorithms with numerical approximation:\n    \\begin{itemize}\n        \\item build the trajectories forward and backward using a numerical approximation of the rate\n        \\item we need to sample $\\mathbb{P}(l | X)$\n        \\item $\\mathbb{P}(l | X)$ is now more complicated\n        \\item \\alert{but it can be evaluated for each $l \\in [0,T]$}\n        \\item we do a 1 Metropolis step to sample $\\mathbb{P}(l | X)$\n    \\end{itemize}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -14.181682398708318,
+                "y": 1247.9880510863159
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "prop:adapt-h-T",
+                "name": "proposition",
+                "text": "<div class=\"proposition\" id=\"prop:adapt-h-T\">\n<p><strong>Proposition 6</strong> (Adaptation of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/x-tex\">h</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>).\n</p>\n<p><strong><span style=\"color: orange\">Adaptation:</span></strong></p>\n<ul>\n<li><p>NUTS adapts\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></p></li>\n<li><p>we can also adapt\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/x-tex\">h</annotation></semantics></math></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Good\nproperties:</span></strong></p>\n<ul>\n<li><p>scale invariance</p></li>\n<li><p>sampling landscapes with different scales</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Example: Funnel\ndistribution:</span></strong></p>\n<ul>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>\u223c</mo><mstyle mathvariant=\"script\"><mi>\ud835\udca9</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">x_0 \\sim \\mathcal{N}(0,3)</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>\u223c</mo><mstyle mathvariant=\"script\"><mi>\ud835\udca9</mi></mstyle><mrow><mo form=\"prefix\" stretchy=\"true\">(</mo><mn>0</mn><mo>,</mo><msup><mi>e</mi><mrow><msub><mi>x</mi><mn>0</mn></msub><mi>/</mi><mn>2</mn></mrow></msup><mo form=\"postfix\" stretchy=\"true\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">x_1 \\sim \\mathcal{N}(0,e^{x_0/2})</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "parent": "sec:metro-nuts-pdmp",
+                "rank": "0",
+                "html_name": "prop:adapt-h-T",
+                "summary": "<div class=\"proposition\" id=\"prop:adapt-h-T\">\n<p><strong>Proposition 6</strong> (Adaptation of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/x-tex\">h</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>).\n</p>\n<p><strong><span style=\"color: orange\">Adaptation:</span></strong></p>\n<ul>\n<li><p>NUTS adapts\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></p></li>\n<li><p>we can also adapt\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/x-tex\">h</annotation></semantics></math></p></li>\n</ul>\n</div>",
+                "hasSummary": true,
+                "hasTitle": true,
+                "title": "Adaptation of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/x-tex\">h</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>",
+                "display_order": 13,
+                "latexMainText": "\n    \\alert{Adaptation:}\n    \\begin{itemize}\n        \\item NUTS adapts $T$\n        \\item we can also adapt $h$\n    \\end{itemize}\n    \\alert{Good properties:}\n    \\begin{itemize}\n        \\item scale invariance\n        \\item sampling landscapes with different scales\n    \\end{itemize}\n    \n    \\alert{Example: Funnel distribution:}\n    \\begin{itemize}\n        \\item $x_0 \\sim \\mathcal{N}(0,3)$\n        \\item $x_1 \\sim \\mathcal{N}(0,e^{x_0/2})$\n    \\end{itemize}\n    "
+            },
+            "classes": "l0",
+            "position": {
+                "x": -28.36336479741623,
+                "y": 1815.2553470346413
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "sec:intro",
+                "name": "section",
+                "text": "",
+                "parent": "",
+                "rank": "0",
+                "html_name": "sec:intro",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 0
+            },
+            "classes": "l0",
+            "position": {
+                "x": -194.91043530394666,
+                "y": -3043.983800889241
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "titlesec:intro",
+                "name": "sectionTitle",
+                "text": "<h1 id=\"sec:intro\">Introduction</h1>",
+                "parent": "sec:intro",
+                "rank": "0",
+                "html_name": "sec:intro",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 0
+            },
+            "classes": "l0",
+            "position": {
+                "x": -345.11086570111036,
+                "y": -3994.3588053791736
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "sec:nuts",
+                "name": "section",
+                "text": "",
+                "parent": "",
+                "rank": "0",
+                "html_name": "sec:nuts",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 6
+            },
+            "classes": "l0",
+            "position": {
+                "x": -1729.9074434666268,
+                "y": -596.5265018104046
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "titlesec:nuts",
+                "name": "sectionTitle",
+                "text": "<h1 id=\"sec:nuts\">No-U-Turn Sampler (NUTS)</h1>",
+                "parent": "sec:nuts",
+                "rank": "0",
+                "html_name": "sec:nuts",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 6
+            },
+            "classes": "l0",
+            "position": {
+                "x": -1815.6449792033222,
+                "y": -1751.9094905880006
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "sec:metro-pdmp",
+                "name": "section",
+                "text": "",
+                "parent": "",
+                "rank": "0",
+                "html_name": "sec:metro-pdmp",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 10
+            },
+            "classes": "l0",
+            "position": {
+                "x": 1209.5186143725336,
+                "y": -685.3199804963735
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "titlesec:metro-pdmp",
+                "name": "sectionTitle",
+                "text": "<h1 id=\"sec:metro-pdmp\">Metropolised PDMPs</h1>",
+                "parent": "sec:metro-pdmp",
+                "rank": "0",
+                "html_name": "sec:metro-pdmp",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 10
+            },
+            "classes": "l0",
+            "position": {
+                "x": 1209.5186143725336,
+                "y": -1640.6809578660316
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "sec:metro-nuts-pdmp",
+                "name": "section",
+                "text": "",
+                "parent": "",
+                "rank": "0",
+                "html_name": "sec:metro-nuts-pdmp",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 12
+            },
+            "classes": "l0",
+            "position": {
+                "x": -70.90841199354077,
+                "y": 1401.05524847695
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "titlesec:metro-nuts-pdmp",
+                "name": "sectionTitle",
+                "text": "<h1 id=\"sec:metro-nuts-pdmp\">Metropolised PDMP NUTS</h1>",
+                "parent": "sec:metro-nuts-pdmp",
+                "rank": "0",
+                "html_name": "sec:metro-nuts-pdmp",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 12
+            },
+            "classes": "l0",
+            "position": {
+                "x": -70.90841199354077,
+                "y": 886.3551499192586
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "subsec:pdmp",
+                "name": "subsection",
+                "text": "",
+                "parent": "sec:intro",
+                "rank": "0",
+                "html_name": "subsec:pdmp",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 0
+            },
+            "classes": "l0",
+            "position": {
+                "x": -191.1048860355255,
+                "y": -2736.0923584124803
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "titlesubsec:pdmp",
+                "name": "subsectionTitle",
+                "text": "<h2 id=\"subsec:pdmp\">Pecewise Deterministic Markov Process</h2>",
+                "parent": "subsec:pdmp",
+                "rank": "0",
+                "html_name": "subsec:pdmp",
+                "hasSummary": false,
+                "hasTitle": false,
+                "display_order": 0
+            },
+            "classes": "l0",
+            "position": {
+                "x": -459.4997671642683,
+                "y": -3385.075920425652
+            }
+        },
+        {
+            "data": {
+                "id": "def:pdmp-samplerdef:pdmp",
+                "source": "def:pdmp",
+                "target": "def:pdmp-sampler",
+                "type": "strong",
+                "visibility": 1
+            }
+        },
+        {
+            "data": {
+                "id": "def:backwarddef:pdmp",
+                "source": "def:pdmp",
+                "target": "def:backward",
+                "type": "strong",
+                "visibility": 1
+            }
+        },
+        {
+            "data": {
+                "id": "prop:backward-simpledef:backward",
+                "source": "def:backward",
+                "target": "prop:backward-simple",
+                "type": "strong",
+                "visibility": 1
+            }
+        },
+        {
+            "data": {
+                "id": "def:skew-reversibilitydef:backward",
+                "source": "def:backward",
+                "target": "def:skew-reversibility",
+                "type": "strong",
+                "visibility": 1
+            }
+        },
+        {
+            "data": {
+                "id": "def:nuts-hmcprop:when-to-stop",
+                "source": "prop:when-to-stop",
+                "target": "def:nuts-hmc",
+                "type": "strong",
+                "visibility": 1
+            }
+        },
+        {
+            "data": {
+                "id": "def:pdmp-nutsdef:backward",
+                "source": "def:backward",
+                "target": "def:pdmp-nuts",
+                "type": "strong",
+                "visibility": 0,
+                "cyedgebendeditingWeights": [
+                    0.09600084996135205
+                ],
+                "cyedgebendeditingDistances": [
+                    556.1710690307519
+                ]
+            },
+            "classes": "edgebendediting-hasbendpoints"
+        },
+        {
+            "data": {
+                "id": "prop:PlXdef:pdmp-nuts",
+                "source": "def:pdmp-nuts",
+                "target": "prop:PlX",
+                "type": "strong",
+                "visibility": 1
+            }
+        },
+        {
+            "data": {
+                "id": "prop:PlXdef:skew-reversibility",
+                "source": "def:skew-reversibility",
+                "target": "prop:PlX",
+                "type": "strong",
+                "visibility": 0,
+                "cyedgebendeditingWeights": [
+                    0.9488943343167628
+                ],
+                "cyedgebendeditingDistances": [
+                    -594.5076234010713
+                ]
+            },
+            "classes": "edgebendediting-hasbendpoints"
+        },
+        {
+            "data": {
+                "id": "def:metro-pdmpdef:backward",
+                "source": "def:backward",
+                "target": "def:metro-pdmp",
+                "type": "strong",
+                "visibility": 0,
+                "cyedgebendeditingWeights": [
+                    0.16529846508385865,
+                    0.6705193988986752
+                ],
+                "cyedgebendeditingDistances": [
+                    -288.1234382423263,
+                    845.2688074815468
+                ]
+            },
+            "classes": "edgebendediting-hasbendpoints"
+        },
+        {
+            "data": {
+                "id": "prop:acc-ratedef:metro-pdmp",
+                "source": "def:metro-pdmp",
+                "target": "prop:acc-rate",
+                "type": "strong",
+                "visibility": 1
+            }
+        },
+        {
+            "data": {
+                "id": "prop:acc-ratedef:skew-reversibility",
+                "source": "def:skew-reversibility",
+                "target": "prop:acc-rate",
+                "type": "strong",
+                "visibility": 0,
+                "cyedgebendeditingWeights": [
+                    0.6729570525905215
+                ],
+                "cyedgebendeditingDistances": [
+                    1327.6377180889283
+                ]
+            },
+            "classes": "edgebendediting-hasbendpoints"
+        },
+        {
+            "data": {
+                "id": "def:metro-nuts-pdmpdef:metro-pdmp",
+                "source": "def:metro-pdmp",
+                "target": "def:metro-nuts-pdmp",
+                "type": "strong",
+                "visibility": 0,
+                "cyedgebendeditingWeights": [
+                    0.327158983781442,
+                    0.5006271700041124
+                ],
+                "cyedgebendeditingDistances": [
+                    -121.69734362603847,
+                    617.8057491495175
+                ]
+            },
+            "classes": "edgebendediting-hasbendpoints"
+        },
+        {
+            "data": {
+                "id": "def:metro-nuts-pdmpdef:pdmp-nuts",
+                "source": "def:pdmp-nuts",
+                "target": "def:metro-nuts-pdmp",
+                "type": "strong",
+                "visibility": 0,
+                "cyedgebendeditingWeights": [
+                    0.28893651961343186,
+                    0.5282979501571745
+                ],
+                "cyedgebendeditingDistances": [
+                    274.93954769876984,
+                    -654.0799957163198
+                ]
+            },
+            "classes": "edgebendediting-hasbendpoints"
+        },
+        {
+            "data": {
+                "id": "prop:adapt-h-Tdef:metro-nuts-pdmp",
+                "source": "def:metro-nuts-pdmp",
+                "target": "prop:adapt-h-T",
+                "type": "strong",
+                "visibility": 1
+            }
+        }
+    ],
+    "style": {
+        "exercise": {
+            "nodeType": "exercise",
+            "nodeStyle": {
+                "background-color": "#0097ff",
+                "background-opacity": 0.3,
+                "width": 200,
+                "height": 20,
+                "border-color": "#0097ff",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "theorem": {
+            "nodeType": "theorem",
+            "nodeStyle": {
+                "background-color": "#0097ff",
+                "background-opacity": 0.3,
+                "width": 200,
+                "height": 20,
+                "border-color": "#0097ff",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "definition": {
+            "nodeType": "definition",
+            "nodeStyle": {
+                "background-color": "#018a7a",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "#018a7a",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "assumption": {
+            "nodeType": "assumption",
+            "nodeStyle": {
+                "background-color": "#9900ff",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "#9900ff",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "proposition": {
+            "nodeType": "proposition",
+            "nodeStyle": {
+                "background-color": "#0093ab",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "#0093ab",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "lemma": {
+            "nodeType": "lemma",
+            "nodeStyle": {
+                "background-color": "#00b9ff",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "#00b9ff",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "remark": {
+            "nodeType": "lemma",
+            "nodeStyle": {
+                "background-color": "#ffe400",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "#ffe400",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "corollary": {
+            "nodeType": "lemma",
+            "nodeStyle": {
+                "background-color": "#0093ab",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "black",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle",
+                "node-width": 700
+            }
+        },
+        "section": {
+            "nodeType": "section",
+            "nodeStyle": {
+                "background-color": "#d8d8d8",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "black",
+                "border-style": "solid",
+                "border-width": 16,
+                "shape": "roundrectangle"
+            }
+        },
+        "sectionTitle": {
+            "nodeType": "sectionTitle",
+            "nodeStyle": {
+                "background-color": "#383838",
+                "background-opacity": 0.1,
+                "width": 200,
+                "height": 20,
+                "shape": "roundrectangle",
+                "node-width": 1200
+            }
+        },
+        "subsection": {
+            "nodeType": "subsection",
+            "nodeStyle": {
+                "background-color": "#858585",
+                "background-opacity": 0.2,
+                "width": 200,
+                "height": 20,
+                "border-color": "black",
+                "border-style": "dashed",
+                "border-width": 16,
+                "shape": "roundrectangle"
+            }
+        },
+        "subsectionTitle": {
+            "nodeType": "subsectionTitle",
+            "nodeStyle": {
+                "background-color": "#383838",
+                "background-opacity": 0.1,
+                "width": 200,
+                "height": 20,
+                "shape": "roundrectangle",
+                "node-width": 1200
+            }
+        }
+    },
+    "full_text": "<div class=\"frame\">\n\n</div>\n<div class=\"frame\">\n<p><span>Table of contents</span></p>\n</div>\n<h1 id=\"sec:intro\">Introduction</h1>\n<div id=\"prop:ideal\" class=\"proposition\">\n<p><strong>Proposition 1</strong> (ideal sampling algorithm). </p>\n<p><strong><span style=\"color: orange\">Setting: </span></strong>\nsampling a differentiable target density\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03c0</mi><annotation encoding=\"application/x-tex\">\\pi</annotation></semantics></math>\non\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>n</mi></msup><annotation encoding=\"application/x-tex\">\\mathbb{R}^n</annotation></semantics></math></p>\n<p><strong><span style=\"color: orange\">Ideal sampling algorithm:\n</span></strong> <strong>a black box</strong></p>\n<ul>\n<li><p>Efficient, good scaling with the dimension</p></li>\n<li><p>Robust - adapt to the target density</p></li>\n<li><p>No parameters to set</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Current state:\n</span></strong></p>\n<ul>\n<li><p>Efficient: <strong>OK</strong></p></li>\n<li><p>Robust: <strong>not OK</strong>. Adaptive algorithm are\nhard</p></li>\n<li><p>No parameters to set: <strong>no OK</strong></p></li>\n</ul>\n</div>\n<h2 id=\"subsec:pdmp\">Pecewise Deterministic Markov Process</h2>\n<div id=\"def:pdmp\" class=\"definition\">\n<p><strong>Definition 1</strong> (PDMP). </p>\n<p><strong>PDMP: Piecewise Deterministic Markov Process</strong></p>\n<ul>\n<li><p><strong>Markov Process</strong>: continuous time Markov process\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\n(<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>\u2260</mo><annotation encoding=\"application/x-tex\">\\neq</annotation></semantics></math>\nMarkov chain)</p></li>\n<li><p><strong>Deterministic</strong>: follows a deterministic\ntrajectory, called deterministic flow\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03d5</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>z</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\phi(t,z)</annotation></semantics></math></p></li>\n<li><p><strong>Piecewise</strong>: There are random jumps at random\ntimes</p>\n<ul>\n<li><p>event rate\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(z)</annotation></semantics></math>,\nprobability of an event in\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo>+</mo><mi>d</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><annotation encoding=\"application/x-tex\">[t,t+dt]</annotation></semantics></math>:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>Z</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>+</mo><mi>o</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>d</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(Z_t) dt +o(dt)</annotation></semantics></math></p></li>\n<li><p>jump kernel:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo>\u22c5</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>z</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math></p></li>\n</ul></li>\n</ul>\n<p>A PDMP\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\nis defined by</p>\n<ul>\n<li><p>a deterministic flow\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03d5</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>z</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\phi(t,z)</annotation></semantics></math></p></li>\n<li><p>a event rate\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(z)</annotation></semantics></math></p></li>\n<li><p>a jump kernel\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo>\u22c5</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>z</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math></p></li>\n</ul>\n<p><img src=\"PDMPEx.png\" style=\"width:10cm\" alt=\"image\" /></p>\n</div>\n<div id=\"def:pdmp-sampler\" class=\"definition\">\n<p><strong>Definition 2</strong> (PDMP samplers). </p>\n<p>PDMP samplers:</p>\n<ul>\n<li><p>target density\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03c0</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\pi(x)</annotation></semantics></math>\non\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>d</mi></msup><annotation encoding=\"application/x-tex\">\\mathbb{R}^d</annotation></semantics></math></p></li>\n<li><p>add a velocity\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/x-tex\">v</annotation></semantics></math>,\nnotation:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z = (x,v)</annotation></semantics></math></p></li>\n<li><p>state space\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>d</mi></msup><mo>\u00d7</mo><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mi>d</mi></msup></mrow><annotation encoding=\"application/x-tex\">\\mathbb{R}^d \\times \\mathbb{R}^d</annotation></semantics></math></p></li>\n<li><p>deterministic flow:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo>,</mo><msub><mi>v</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mi>t</mi></msub><mo>,</mo><mi>\u03a8</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\frac{d (x_t,v_t)}{dt} = (v_t, \\Psi(x_t))</annotation></semantics></math>,\noften\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03a8</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">\\Psi(x_t) = 0</annotation></semantics></math>\n(i.e. straight lines)</p></li>\n<li><p>jump kernel\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>q</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo>\u22c5</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>z</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">q(\\cdot|z)</annotation></semantics></math>\nleaves the position invariant</p></li>\n</ul>\n<p><img src=\"PDMPsamplerex.png\" style=\"width:5cm\" alt=\"image\" /></p>\n</div>\n<div id=\"def:backward\" class=\"definition\">\n<p><strong>Definition 3</strong> (Backward process). </p>\n<p><strong><span style=\"color: orange\">Assumption: </span></strong> the\nprocess has an invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p>\n<p><strong><span style=\"color: orange\">Going backward: </span></strong>\nif the process is at\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo>,</mo><msub><mi>v</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><annotation encoding=\"application/x-tex\">(x_t,v_t)</annotation></semantics></math>\nat time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/x-tex\">t</annotation></semantics></math>,\nwhere could the process be at time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>t</mi><mo>\u2212</mo></msup><annotation encoding=\"application/x-tex\">t^-</annotation></semantics></math>\n?</p>\n<ul>\n<li><p>This question only makes sense if we assume that the process is\nat equilibrium (i.e. that\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>s</mi></msub><mo>,</mo><msub><mi>v</mi><mi>s</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">(x_s,v_s) \\sim \\mu</annotation></semantics></math>\nfor all\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/x-tex\">s</annotation></semantics></math>)</p></li>\n</ul>\n</div>\n<div id=\"prop:backward-simple\" class=\"proposition\">\n<p><strong>Proposition 2</strong>. <span>Backward process: simple PDMP\ncase</span> </p>\n<p><strong><span style=\"color: orange\">Simple PDMP: </span></strong>\n(which covers BPS and ZigZag)</p>\n<ul>\n<li><p>When an event occures, the velocity is deterministically flipped\nby a function\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><annotation encoding=\"application/x-tex\">\\mathcal{F}</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>v</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{F}(\\mathcal{F}(v)) = v</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bc</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>\u03bc</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mu(x,v) = \\mu(x,\\mathcal{F}(v))</annotation></semantics></math></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Backward\nprocess:</span></strong></p>\n<ul>\n<li><p>Is a PDMP</p></li>\n<li><p>Deterministic trajectories: the base trajectories but\nbackward</p></li>\n<li><p>Jump rate:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>\u03bb</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>\u03bb</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda_{backward}(x,v) = \\lambda(x,\\mathcal{F}(v))</annotation></semantics></math></p></li>\n<li><p>Jump: use the velocity flip\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathvariant=\"script\"><mi>\u2131</mi></mstyle><annotation encoding=\"application/x-tex\">\\mathcal{F}</annotation></semantics></math></p></li>\n</ul>\n</div>\n<div id=\"def:skew-reversibility\" class=\"definition\">\n<p><strong>Definition 4</strong>. <span>Skew-reversibility</span> </p>\n<p><strong><span style=\"color: orange\">Definition:</span></strong> a\nPDMP is said to be skew-reversible if for any path\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><annotation encoding=\"application/x-tex\">(x_t)_{t\\in[0,T]}</annotation></semantics></math>\nfrom\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/x-tex\">x</annotation></semantics></math>\nto\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/x-tex\">y</annotation></semantics></math>:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><msub><mi>P</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><msub><mi>P</mi><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mfrac><mrow><mi>\u03c0</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mi>\u03c0</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><mn>1</mn><mo>,</mo></mrow><annotation encoding=\"application/x-tex\">\\frac{P_{backward}((x_t)_{t\\in[0,T]})}{P_{forward}((x_t)_{t\\in[0,T]})} \\frac{\\pi(y)}{\\pi(x)} = 1,</annotation></semantics></math>\nwhere\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">P_{forward}((x_t)_{t\\in[0,T]})</annotation></semantics></math>\nis the probability of taking this path forward starting from\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x_0 = x</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">P_{backward}((x_t)_{t\\in[0,T]})</annotation></semantics></math>\nis the path backward starting from\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mi>T</mi></msub><mo>=</mo><mi>y</mi></mrow><annotation encoding=\"application/x-tex\">x_T = y</annotation></semantics></math>.</p>\n<p><strong><span style=\"color: orange\">PDMP samplers:</span></strong>\nthey are skew-reversible!</p>\n</div>\n<h2 id=\"spoilers\">Spoilers</h2>\n<div class=\"frame\">\n<p><span>Our framework for fully adaptive MCMC</span></p>\n<p><strong><span style=\"color: orange\">Our\nframework:</span></strong></p>\n<ul>\n<li><p>based on PDMPs</p></li>\n<li><p>replaces thinning by a numerical approximation of the rate +\nmetropolis</p></li>\n<li><p>solve the refresh rate question by using No-U-Turn</p></li>\n<li><p>helps for creating fully adaptive algorithm</p></li>\n<li><p>intuition: with continuous trajectories, there is a non 0\nprobability to trace back even if the process changes slightly</p></li>\n</ul>\n</div>\n<div class=\"frame\">\n<p><span>Spoilers on the No-U-turn Metropolised PDMPs</span></p>\n<p>The final algorithm has 2 key properties:</p>\n<ul>\n<li><p><strong><span style=\"color: orange\">No thinning: </span></strong>\nremove the need of a thinning bound by using a \"Metropolised\" numerical\napproximation.</p></li>\n<li><p><strong><span style=\"color: orange\">Fully\nadaptive:</span></strong></p>\n<ol>\n<li><p>no tuned parameters,</p></li>\n<li><p>robust (can sample funnels),</p></li>\n<li><p>scale invariant.</p></li>\n</ol></li>\n</ul>\n<div class=\"center\">\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\"></th>\n<th style=\"text-align: center;\">step size</th>\n<th style=\"text-align: center;\">path length</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">HMC</td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: orange\">tuned</span></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: orange\">tuned</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">HMC-NUTS</td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: orange\">tuned</span></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: green\">adaptive</span></td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">BPS</td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: red\">thinning</span></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: orange\">tuned</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NUTS-BPS</strong></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: red\"><strong>thinning</strong></span></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: green\"><strong>adaptive</strong></span></td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>MH-BPS</strong></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: green\"><strong>adaptive</strong></span></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: orange\"><strong>tuned</strong></span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>MH-BPS-NUTS</strong></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: green\"><strong>adaptive</strong></span></td>\n<td style=\"text-align: center;\"><span\nstyle=\"color: green\"><strong>adaptive</strong></span></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div class=\"frame\">\n<p><span>Note about other PDMPs</span></p>\n<p>This talk takes BPS as an example, but other PDMPs could be used.</p>\n</div>\n<h1 id=\"sec:nuts\">No-U-Turn Sampler (NUTS)</h1>\n<div class=\"proposition\">\n<p><strong>Proposition 3</strong> (When to stop). <span\nid=\"prop:when-to-stop\" label=\"prop:when-to-stop\"></span></p>\n<p><strong><span style=\"color: orange\">Motivation:</span></strong> PDMP\nmethods evolve deterministically for a stochastic time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>\nsimilar to HMC. This can lead to U-turn behaviour hindering the\nsampler</p>\n</div>\n<div id=\"def:nuts-hmc\" class=\"definition\">\n<p><strong>Definition 5</strong> (HMC with NUTS). </p>\n<p><strong><span style=\"color: orange\">HMC-NUTS:</span></strong></p>\n<ul>\n<li><p>Adaptively chose\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/x-tex\">L</annotation></semantics></math>\nthe number of steps</p></li>\n<li><p><strong><span style=\"color: orange\">Intuition:</span></strong>\nstop when the trajectory does a U-turn</p></li>\n<li><p>Builds the trajectory both forward and backward until a\nU-turn</p></li>\n<li><p>Proposes one of the constructed points at random</p></li>\n</ul>\n<p><img src=\"NUTS.png\" alt=\"image\" /></p>\n</div>\n<div id=\"def:pdmp-nuts\" class=\"definition\">\n<p><strong>Definition 6</strong> (PDMP with NUTS). </p>\n<p><strong><span style=\"color: orange\">Assumptions for our\nPDMP:</span></strong></p>\n<ol>\n<li><p>invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p></li>\n<li><p>Skew-reversible</p></li>\n</ol>\n<p><strong><span style=\"color: orange\">A new\nalgorithm:</span></strong></p>\n<ul>\n<li><p>PDMP: <strong>Markov process, continuous time</strong></p></li>\n<li><p>PDMP-NUTS: <strong>Markov chain, discrete time</strong></p></li>\n<li><p>Start from a point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p></li>\n<li><p>Resample the velocity</p></li>\n<li><p>Simulate the PDMP until a U-turn occures</p></li>\n<li><p>Output a new point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mi>\u2032</mi><mo>,</mo><mi>v</mi><mi>\u2032</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><annotation encoding=\"application/x-tex\">(x&#39;,v&#39;)</annotation></semantics></math>\nsampled from the trajectory</p></li>\n</ul>\n<p>Consider the following:</p>\n<ol>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">z \\sim \\mu</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03b1</mi><mo>\u223c</mo><mi>u</mi><mi>n</mi><mi>i</mi><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\alpha \\sim unif(0,1)</annotation></semantics></math></p></li>\n<li><p>Build a trajectory\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\nfor\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>\u2208</mo><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle></mrow><annotation encoding=\"application/x-tex\">t\\in \\mathbb{R}</annotation></semantics></math>\nwith\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mn>0</mn></msub><mo>=</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">Z_0 = z</annotation></semantics></math>,\n<strong>both forward and backward</strong></p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mo>max</mo><mo stretchy=\"false\" form=\"prefix\">{</mo><mi>t</mi><mo>\u2208</mo><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mo>+</mo></msup><mspace width=\"0.167em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.167em\"></mspace><mi>C</mi><mi>r</mi><mi>i</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>Z</mi><mi>s</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>s</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>\u2212</mo><mi>\u03b1</mi><mi>t</mi><mo>,</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>\u2212</mo><mi>\u03b1</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mtext mathvariant=\"normal\">is valid</mtext><mo stretchy=\"false\" form=\"postfix\">}</mo></mrow><annotation encoding=\"application/x-tex\">T = \\max \\{t\\in \\mathbb{R}^+ \\, | \\, Criterion((Z_s)_{s\\in [-\\alpha t, (1-\\alpha)t]}) \\text{is valid}\\}</annotation></semantics></math></p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>Z</mi><mrow><mi>t</mi><mo>\u2212</mo><mi>\u03b1</mi><mi>T</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub></mrow><annotation encoding=\"application/x-tex\">X = (Z_{t-\\alpha T})_{t \\in [0,T]}</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mo>=</mo><mi>\u03b1</mi><mi>T</mi></mrow><annotation encoding=\"application/x-tex\">l = \\alpha T</annotation></semantics></math></p></li>\n</ol>\n<p>Consider the random variable\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>X</mi><mo>,</mo><mi>l</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><annotation encoding=\"application/x-tex\">(X,l)</annotation></semantics></math>:</p>\n<ul>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>X</mi><mi>l</mi></msub><mo>=</mo><msub><mi>Z</mi><mn>0</mn></msub><mo>=</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">X_l = Z_0 = z</annotation></semantics></math></p></li>\n<li><p><strong><span style=\"color: orange\">hence\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>X</mi><mi>l</mi></msub><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">X_l \\sim \\mu</annotation></semantics></math></span></strong></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Algorithm:</span></strong>\nstarting from\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p>\n<ul>\n<li><p>Sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03b1</mi><mo>\u223c</mo><mi>u</mi><mi>n</mi><mi>i</mi><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\alpha \\sim unif(0,1)</annotation></semantics></math></p></li>\n<li><p>Sampling a path:</p>\n<ul>\n<li><p>Build a trajectory\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>t</mi></msub><annotation encoding=\"application/x-tex\">Z_t</annotation></semantics></math>\nfor\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>\u2208</mo><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle></mrow><annotation encoding=\"application/x-tex\">t\\in \\mathbb{R}</annotation></semantics></math>\nwith\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>Z</mi><mn>0</mn></msub><mo>=</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">Z_0 = z</annotation></semantics></math>\n(both forward and backward)</p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mo>max</mo><mo stretchy=\"false\" form=\"prefix\">{</mo><mi>t</mi><mo>\u2208</mo><msup><mstyle mathvariant=\"double-struck\"><mi>\u211d</mi></mstyle><mo>+</mo></msup><mspace width=\"0.167em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.167em\"></mspace><mi>C</mi><mi>r</mi><mi>i</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>Z</mi><mi>s</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>s</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>\u2212</mo><mi>\u03b1</mi><mi>t</mi><mo>,</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>\u2212</mo><mi>\u03b1</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mtext mathvariant=\"normal\">is valid</mtext><mo stretchy=\"false\" form=\"postfix\">}</mo></mrow><annotation encoding=\"application/x-tex\">T = \\max \\{t\\in \\mathbb{R}^+ \\, | \\, Criterion((Z_s)_{s\\in [-\\alpha t, (1-\\alpha)t]}) \\text{is valid}\\}</annotation></semantics></math></p></li>\n<li><p>Let\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>Z</mi><mrow><mi>t</mi><mo>\u2212</mo><mi>\u03b1</mi><mi>T</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub></mrow><annotation encoding=\"application/x-tex\">X = (Z_{t-\\alpha T})_{t \\in [0,T]}</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mo>=</mo><mi>\u03b1</mi><mi>T</mi></mrow><annotation encoding=\"application/x-tex\">l = \\alpha T</annotation></semantics></math></p></li>\n</ul></li>\n<li><p>Sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mi>\u2032</mi><mo>\u223c</mo><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">l&#39; \\sim \\mathbb{P}(l | X)</annotation></semantics></math>\n(note: this probability depends on the distribution of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/x-tex\">z</annotation></semantics></math>!)</p></li>\n<li><p>output:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>X</mi><mrow><mi>l</mi><mi>\u2032</mi></mrow></msub><annotation encoding=\"application/x-tex\">X_{l&#39;}</annotation></semantics></math></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Measure invariance:\n</span></strong> If\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">z \\sim \\mu</annotation></semantics></math>\nthen\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>X</mi><mrow><mi>l</mi><mi>\u2032</mi></mrow></msub><mo>\u223c</mo><mi>\u03bc</mi></mrow><annotation encoding=\"application/x-tex\">X_{l&#39;} \\sim \\mu</annotation></semantics></math></p>\n<p><strong><span style=\"color: orange\">Question: </span></strong> what\nis\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>?</p>\n</div>\n<div id=\"prop:PlX\" class=\"proposition\">\n<p><strong>Proposition 4</strong>\n(<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>).\n</p>\n<p><strong><span style=\"color: orange\">Different\ncases:</span></strong></p>\n<ul>\n<li><p>assuming that the criterion was triggered by the right side of\nthe interval:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>\u221d</mo><mfrac><mrow><mi>T</mi><mo>\u2212</mo><mi>t</mi></mrow><mi>T</mi></mfrac></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X) \\propto \\frac{T-t}{T}</annotation></semantics></math></p></li>\n<li><p>by the left side:\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>\u221d</mo><mfrac><mi>t</mi><mi>T</mi></mfrac></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X) \\propto \\frac{t}{T}</annotation></semantics></math></p></li>\n<li><p>we simplify the No-U-turn criterion so that it cannot be\ntriggered by both sides at the same time.</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Proof:</span></strong> direct\nconsequence of skew-reversibility</p>\n</div>\n<h1 id=\"sec:metro-pdmp\">Metropolised PDMPs</h1>\n<div id=\"def:metro-pdmp\" class=\"definition\">\n<p><strong>Definition 7</strong> (Metropolised PDMP sampler). </p>\n<p><strong><span style=\"color: orange\">Assumptions for our\nPDMP:</span></strong></p>\n<ol>\n<li><p>invariant measure\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bc</mi><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></p></li>\n<li><p>Skew-reversible</p></li>\n</ol>\n<p><strong><span style=\"color: orange\">A new\nalgorithm:</span></strong></p>\n<ul>\n<li><p>PDMP: <strong>Markov process, continuous time</strong></p></li>\n<li><p>Metropolised PDMP: <strong>Markov chain, discrete\ntime</strong></p></li>\n<li><p>Start from a point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">z=(x,v)</annotation></semantics></math></p></li>\n<li><p>Simulate a numerical approximation of the PDMP until time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></p></li>\n<li><p>accept/reject\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>Z</mi><mi>T</mi></msub><annotation encoding=\"application/x-tex\">Z_T</annotation></semantics></math>\nusing a Metropolis correction</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Path construction:\n</span></strong></p>\n<ul>\n<li><p>Pick an integration time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>,</p></li>\n<li><p>select a time direction\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03c4</mi><mo>\u2208</mo><mo stretchy=\"false\" form=\"prefix\">{</mo><mo>\u2212</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\tau \\in \\{-1,1\\}</annotation></semantics></math>,</p></li>\n<li><p>build\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\tilde{\\lambda}(t)</annotation></semantics></math>\na (nice) numerical approximation of the rate\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03bb</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>\u03bb</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo>,</mo><msub><mi>v</mi><mi>t</mi></msub><mo>,</mo><mi>\u03c4</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\lambda(t) = \\lambda(x_t,v_t,\\tau)</annotation></semantics></math>,</p></li>\n<li><p>find the next event using this approximated rate (but in an exact\nway) and jump at event,</p></li>\n<li><p>repeat until time reaching time\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>.</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Acceptance: </span></strong></p>\n<ul>\n<li><p>Accept or reject the point\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mi>T</mi></msub><annotation encoding=\"application/x-tex\">x_T</annotation></semantics></math>\nusing a Metropolis correction.</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Acceptance rate: </span></strong>\n<math display=\"block\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>\u03b1</mi><mo>=</mo><mfrac><mrow><msub><mover><mi>P</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mi>b</mi><mi>a</mi><mi>c</mi><mi>k</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><msub><mover><mi>P</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mi>f</mi><mi>o</mi><mi>r</mi><mi>w</mi><mi>a</mi><mi>r</mi><mi>d</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>t</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mfrac><mrow><mi>\u03c0</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>T</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mi>\u03c0</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow><annotation encoding=\"application/x-tex\">\\alpha = \\frac{\\tilde P_{backward}((x_t)_{t\\in[0,T]})}{\\tilde P_{forward}((x_t)_{t\\in[0,T]})}\\frac{\\pi(x_T)}{\\pi(x_0)}</annotation></semantics></math>\n<strong>The approximation\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><annotation encoding=\"application/x-tex\">\\tilde{\\lambda}</annotation></semantics></math>\nis not the same backward and forward</strong></p>\n</div>\n<div id=\"prop:acc-rate\" class=\"proposition\">\n<p><strong>Proposition 5</strong> (Acceptance rate). </p>\n<p><strong><span style=\"color: orange\">Skew-reversibility:\n</span></strong> if\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><mo>=</mo><mi>\u03bb</mi></mrow><annotation encoding=\"application/x-tex\">\\tilde{\\lambda} = \\lambda</annotation></semantics></math>,\nthen the acceptance\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03b1</mi><annotation encoding=\"application/x-tex\">\\alpha</annotation></semantics></math>\nis 1 <strong><span style=\"color: orange\">Tractable:</span></strong></p>\n<ul>\n<li><p>if\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><annotation encoding=\"application/x-tex\">\\tilde \\lambda</annotation></semantics></math>\nis simple (i.e.\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msubsup><mo>\u222b</mo><mn>0</mn><msub><mi>t</mi><mi>i</mi></msub></msubsup><mover><mi>\u03bb</mi><mo accent=\"true\">\u0303</mo></mover><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">\\int_0^{t_i} \\tilde \\lambda(t) dt</annotation></semantics></math>\ncan be computed exactly)</p></li>\n<li><p>examples: order\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">0,1,2</annotation></semantics></math>\npolynomial approximations of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bb</mi><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></p></li>\n</ul>\n</div>\n<h1 id=\"sec:metro-nuts-pdmp\">Metropolised PDMP NUTS</h1>\n<div id=\"def:metro-nuts-pdmp\" class=\"definition\">\n<p><strong>Definition 8</strong> (Metropolised PDMP NUTS). </p>\n<p>PDMP-NUTS algorithms with numerical approximation:</p>\n<ul>\n<li><p>build the trajectories forward and backward using a numerical\napproximation of the rate</p></li>\n<li><p>we need to sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math>\nis now more complicated</p></li>\n<li><p><strong><span style=\"color: orange\">but it can be evaluated for\neach\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mo>\u2208</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>T</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow><annotation encoding=\"application/x-tex\">l \\in [0,T]</annotation></semantics></math></span></strong></p></li>\n<li><p>we do a 1 Metropolis step to sample\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mstyle mathvariant=\"double-struck\"><mi>\u2119</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>l</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>X</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">\\mathbb{P}(l | X)</annotation></semantics></math></p></li>\n</ul>\n</div>\n<div id=\"prop:adapt-h-T\" class=\"proposition\">\n<p><strong>Proposition 6</strong> (Adaptation of\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/x-tex\">h</annotation></semantics></math>\nand\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math>).\n</p>\n<p><strong><span style=\"color: orange\">Adaptation:</span></strong></p>\n<ul>\n<li><p>NUTS adapts\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></p></li>\n<li><p>we can also adapt\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/x-tex\">h</annotation></semantics></math></p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Good\nproperties:</span></strong></p>\n<ul>\n<li><p>scale invariance</p></li>\n<li><p>sampling landscapes with different scales</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Example: Funnel\ndistribution:</span></strong></p>\n<ul>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>\u223c</mo><mstyle mathvariant=\"script\"><mi>\ud835\udca9</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">x_0 \\sim \\mathcal{N}(0,3)</annotation></semantics></math></p></li>\n<li><p><math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>\u223c</mo><mstyle mathvariant=\"script\"><mi>\ud835\udca9</mi></mstyle><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><msup><mi>e</mi><mrow><msub><mi>x</mi><mn>0</mn></msub><mi>/</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">x_1 \\sim \\mathcal{N}(0,e^{x_0/2})</annotation></semantics></math></p></li>\n</ul>\n</div>\n<div class=\"frame\">\n<p><span>Adaptation visualisation</span> <embed src=\"fig/funnelTraj.pdf\"\nstyle=\"width:11cm\" /></p>\n</div>\n<div class=\"frame\">\n<p><span>Funnel distribution - HMC-NUTS comparison</span> <embed\nsrc=\"fig/FunnelComparison.pdf\" style=\"width:11cm\" /></p>\n</div>\n<h1 id=\"conclusion-and-future-work\">Conclusion and future work</h1>\n<div class=\"frame\">\n<p><span>Future work: PDMP with better scaling</span></p>\n<p>Our algorithm is more robust but scaled slightly worse than HMC with\nthe dimension:</p>\n<ul>\n<li><p>HMC complexity:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>d</mi><mrow><mn>1</mn><mi>/</mi><mn>4</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">O(d^{1/4})</annotation></semantics></math></p></li>\n<li><p>BPS number of events:\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>d</mi><mrow><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">O(d^{1/2})</annotation></semantics></math></p></li>\n<li><p>The numerical approximation complexity is therefore at most\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>d</mi><mrow><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">O(d^{1/2})</annotation></semantics></math>\n(we do reach this complexity)</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Can we design a PDMP that scales\nbetter?</span></strong></p>\n</div>\n<div class=\"frame\">\n<p><span>Future work: adapt on the covariant Matrix</span></p>\n<p><strong><span style=\"color: orange\">Covariance\nMatrix:</span></strong></p>\n<ul>\n<li><p>Needs to be tuned for good performances</p></li>\n<li><p>Adaptive algorithm: Riemanian HMC</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Why is Riemanian HMC not widely\nused?</span></strong></p>\n<blockquote>\n<p>Ultimately the numerical integration of Riemannian Hamiltonian Monte\nCarlo was too fragile and required too much hand-tuning from the user to\nwork reasonably well. As the goal of Stan was to hide those algorithmic\ndetails from the user as much as possible this proved to be a very\nunwelcome user experience and so enthusiasm for these methods waned.</p>\n</blockquote>\n<p>Michael Betancourt, 2020 (STAN forum)\nhttps://discourse.mc-stan.org/t/riemann-manifold-hmc-in-stan/19466/5</p>\n</div>\n<div class=\"frame\">\n<p><span>Future work: adapt on the covariant Matrix</span></p>\n<p><strong><span style=\"color: orange\">Our\nframework:</span></strong></p>\n<ul>\n<li><p>Our framework provides a numerically robust algorithm</p></li>\n<li><p>There is hope that it could improve the situation for Reimannian\nstyle algorithm</p></li>\n<li><p>In particular, a PDMP based on the Lagrangian formulation of\nRiemanian HMC could be used</p></li>\n</ul>\n</div>\n<div class=\"frame\">\n<p><span>Conclusion</span></p>\n<p><strong><span style=\"color: orange\">Take away:</span></strong></p>\n<ul>\n<li><p>continuous time trajectories: easier adaptation</p></li>\n<li><p>our algorithm do not need tuning parameters for the step size and\nintegration length</p></li>\n<li><p>our (not optimised) algorithm can outperform HMC-NUTS in some\nsituations</p></li>\n</ul>\n<p><strong><span style=\"color: orange\">Future work:</span></strong></p>\n<ul>\n<li><p>try different PDMPs (boomerang sampler?)</p></li>\n<li><p>try diffferent approximations of the\n<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>\u03bb</mi><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></p></li>\n<li><p>could we adapt on the covariance matrix too?</p></li>\n</ul>\n</div>\n"
+}
